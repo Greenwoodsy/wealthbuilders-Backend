@@ -32,7 +32,7 @@ app.use(
     origin: [
       "https://www.wealtybuilders.com",
       "http://localhost:3000",
-      "https://server.wealtybuilders.com",
+      "https://backend.wealtybuilders.com",
     ],
     credentials: true,
   })
