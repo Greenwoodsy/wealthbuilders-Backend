@@ -31,6 +31,7 @@ app.use(
   cors({
     origin: [
       "https://wealtybuilders.com",
+      "https://www.wealtybuilders.com",
       "http://localhost:3000",
       "https://backend.wealtybuilders.com",
     ],
