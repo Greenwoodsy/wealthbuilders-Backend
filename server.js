@@ -12,7 +12,7 @@ const withDrawRoutes = require("./routes/withdrawRoutes");
 const errorHandler = require("./middleware/errorMiddleware");
 const seedPlans = require("./utils/seedInvestmentPlans");
 const countriesRoutes = require("./routes/countriesRoutes");
-const visitorRoutes = require("./routes/visitorRoutes");
+// const visitorRoutes = require("./routes/visitorRoutes");
 
 
 const app = express();
@@ -44,7 +44,7 @@ app.use("/api/payments", paymentRoutes);
 app.use("/api/invest", investmentRoutes);
 app.use("/api/withDraw", withDrawRoutes);
 app.use("/api", countriesRoutes);
-app.use("/api/visitors", visitorRoutes);
+// app.use("/api/visitors", visitorRoutes);
 
 
 app.get("/", (req, res) => {
