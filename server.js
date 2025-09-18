@@ -30,9 +30,10 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(
   cors({
     origin: [
+      "https://wealtybuilders.com",
       "https://www.wealtybuilders.com",
       "http://localhost:3000",
-      "https://server.wealtybuilders.com",
+      "https://backend.wealtybuilders.com",
     ],
     credentials: true,
   })
